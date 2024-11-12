@@ -40,7 +40,7 @@ void Exception::resetGameException() {
 
 bool Exception::hasGameException() {
 
-    return m_AppException;
+    return m_GameException;
 }
 
 void Exception::setAppException(const std::string& message) {
